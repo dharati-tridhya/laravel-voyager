@@ -6,15 +6,15 @@
 
 command : git clone https://github.com/dharati-tridhya/laravel-voyager.git
 
-<b> Step 2: </b> Do composer install
+<b> Step 2: </b> create database and setup in .env file
 
-command : composer install 
-
-<b> Step 3: </b> create database and setup in .env file
-
-<b> Step 4: </b> clear the config cache
+<b> Step 3: </b> clear the config cache
 
 command : php artisan config:cache
+
+<b> Step 4: </b> Do composer install
+
+command : composer install 
 
 <b> Step 5: </b> run migration
 
