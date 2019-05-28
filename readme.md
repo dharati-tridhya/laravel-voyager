@@ -1,6 +1,6 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-## Fresh setup for laravel
+## Fresh setup for laravel voyager
 
 <b> Step 1: </b> You can clone or download
 
