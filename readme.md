@@ -2,33 +2,33 @@
 
 ## Fresh setup for laravel
 
-<b> Step1: </b> You can clone or download
+<b> Step 1: </b> You can clone or download
 
 command : git clone https://github.com/dharati-tridhya/laravel-voyager.git
 
-<b> Step2: </b> Do composer install
+<b> Step 2: </b> Do composer install
 
 command : composer install 
 
-<b> Step3: </b> create database and setup in .env file
+<b> Step 3: </b> create database and setup in .env file
 
-<b> Step4: </b> clear the config cache
+<b> Step 4: </b> clear the config cache
 
 command : php artisan config:cache
 
-<b> Step5: </b> run migration
+<b> Step 5: </b> run migration
 
 command : php artisan migrate
 
-<b> Step6: </b> Then run seeder
+<b> Step 6: </b> Then run seeder
 
 command : php artisan db:seed --class=VoyagerDatabaseSeeder
 
-<b> Step7: </b> Remove git
+<b> Step 7: </b> Remove git
 
 command : del .git
 
-<b> Step8: </b> Now you have fresh setup of laravel with voyager admin panel
+<b> Step 8: </b> Now you have fresh setup of laravel with voyager admin panel
 
 email : admin@admin.com
 password: password
