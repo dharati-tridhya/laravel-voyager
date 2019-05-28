@@ -20,11 +20,15 @@ php artisan config:cache
 
 php artisan migrate
 
-<b> Step6: </b> Remove git
+<b> Step6: </b> Then run seeder
+
+php artisan db:seed --class=VoyagerDatabaseSeeder
+
+<b> Step7: </b> Remove git
 
 del .git
 
-<b> Step7: </b> Now you have fresh setup of laravel with voyager admin panel
+<b> Step8: </b> Now you have fresh setup of laravel with voyager admin panel
 
 email : admin@admin.com
 password: password
