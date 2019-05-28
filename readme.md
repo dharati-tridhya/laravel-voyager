@@ -4,29 +4,29 @@
 
 <b> Step1: </b> You can clone or download
 
-git clone https://github.com/dharati-tridhya/laravel-voyager.git
+command : git clone https://github.com/dharati-tridhya/laravel-voyager.git
 
 <b> Step2: </b> Do composer install
 
-composer install 
+command : composer install 
 
 <b> Step3: </b> create database and setup in .env file
 
 <b> Step4: </b> clear the config cache
 
-php artisan config:cache
+command : php artisan config:cache
 
 <b> Step5: </b> run migration
 
-php artisan migrate
+command : php artisan migrate
 
 <b> Step6: </b> Then run seeder
 
-php artisan db:seed --class=VoyagerDatabaseSeeder
+command : php artisan db:seed --class=VoyagerDatabaseSeeder
 
 <b> Step7: </b> Remove git
 
-del .git
+command : del .git
 
 <b> Step8: </b> Now you have fresh setup of laravel with voyager admin panel
 
