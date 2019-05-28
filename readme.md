@@ -6,7 +6,7 @@
 
 command : git clone https://github.com/dharati-tridhya/laravel-voyager.git
 
-<b> Step 2: </b> create database and setup in .env file
+<b> Step 2: </b> create database and setup .env file (i.e set APP_URL,APP_KEY and DB credential etc..)
 
 <b> Step 3: </b> clear the config cache
 
