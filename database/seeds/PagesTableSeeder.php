@@ -84,12 +84,12 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'text_area',
                 'display_name' => __('voyager::seeders.data_rows.excerpt'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 0,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
                 'order'        => 4,
             ])->save();
         }
@@ -99,7 +99,7 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'rich_text_box',
                 'display_name' => __('voyager::seeders.data_rows.body'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 0,
                 'read'         => 1,
                 'edit'         => 1,
@@ -115,7 +115,7 @@ class PagesTableSeeder extends Seeder
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.slug'),
                 'required'     => 1,
-                'browse'       => 0,
+                'browse'       => 1,
                 'read'         => 1,
                 'edit'         => 1,
                 'add'          => 1,
@@ -137,12 +137,12 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.meta_description'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 0,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
                 'order'        => 7,
             ])->save();
         }
@@ -152,12 +152,12 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'text',
                 'display_name' => __('voyager::seeders.data_rows.meta_keywords'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 0,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
                 'order'        => 8,
             ])->save();
         }
@@ -168,11 +168,11 @@ class PagesTableSeeder extends Seeder
                 'type'         => 'select_dropdown',
                 'display_name' => __('voyager::seeders.data_rows.status'),
                 'required'     => 1,
-                'browse'       => 1,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
+                'browse'       => 0,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
                 'details'      => [
                     'default' => 'INACTIVE',
                     'options' => [
@@ -189,7 +189,7 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'timestamp',
                 'display_name' => __('voyager::seeders.data_rows.created_at'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 1,
                 'read'         => 1,
                 'edit'         => 0,
@@ -204,7 +204,7 @@ class PagesTableSeeder extends Seeder
             $dataRow->fill([
                 'type'         => 'timestamp',
                 'display_name' => __('voyager::seeders.data_rows.updated_at'),
-                'required'     => 1,
+                'required'     => 0,
                 'browse'       => 0,
                 'read'         => 0,
                 'edit'         => 0,
@@ -220,11 +220,11 @@ class PagesTableSeeder extends Seeder
                 'type'         => 'image',
                 'display_name' => __('voyager::seeders.data_rows.page_image'),
                 'required'     => 0,
-                'browse'       => 1,
-                'read'         => 1,
-                'edit'         => 1,
-                'add'          => 1,
-                'delete'       => 1,
+                'browse'       => 0,
+                'read'         => 0,
+                'edit'         => 0,
+                'add'          => 0,
+                'delete'       => 0,
                 'order'        => 12,
             ])->save();
         }

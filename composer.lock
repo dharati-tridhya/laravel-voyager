@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5f4e3e97c6f8c6a9455477c30682ab83",
+    "content-hash": "d34711ed2b1fb4819f09720dc4ebeef5",
     "packages": [
         {
             "name": "arrilot/laravel-widgets",
@@ -4174,6 +4174,62 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2019-10-24T08:53:34+00:00"
+        },
+        {
+            "name": "tzsk/crypton",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tzsk/crypton.git",
+                "reference": "0fa2443abae1f33582db715c089efc0430d02cc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tzsk/crypton/zipball/0fa2443abae1f33582db715c089efc0430d02cc3",
+                "reference": "0fa2443abae1f33582db715c089efc0430d02cc3",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5.7|~5.8|^6.0",
+                "php": "^7.2"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.1",
+                "orchestra/testbench": "~3.7|~3.8|^4.0",
+                "phpunit/phpunit": "^8.0",
+                "sempro/phpunit-pretty-print": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Tzsk\\Crypton\\CryptonServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Tzsk\\Crypton\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kazi Mainuddin Ahmed",
+                    "email": "mailtokmahmed@gmail.com",
+                    "homepage": "https://tzsk.github.io"
+                }
+            ],
+            "description": "Laravel API Request Response Encryption",
+            "homepage": "https://github.com/tzsk/crypton",
+            "keywords": [
+                "Crypton",
+                "laravel"
+            ],
+            "time": "2019-09-28T08:56:26+00:00"
         },
         {
             "name": "vlucas/phpdotenv",

@@ -52,6 +52,7 @@ class DataTypesTableSeeder extends Seeder
                 'description'           => '',
             ])->save();
         }
+    
     }
 
     /**
